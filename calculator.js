@@ -13,7 +13,7 @@ app.post("/bmicalculator",function(request,response){
     var H=Number(request.body.h);
 
     var r=W/(H*H);
-    response.send("Your BMI is"+ r);
+    response.send("Your BODY MASS INDEX is : "+ r);
 });
 
 app.get("/", function(request, response){
